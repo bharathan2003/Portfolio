@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: century;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 15px;
+ padding: 7px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  border: 3px solid blue;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  box-shadow: 5px 10px 18px #e3dcdc; 
+  font-weight: bolder;
+}
+/* Home section styles */
+#home {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+/* About section styles */
+#about {
+  background-color: #fff;
+  padding: 50px;
+}
+
+/* Projects section styles */
+#projects {
+  background-color: #f2f2f2;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+/* Contact section styles */
+#contact {
+  background-color: #fff;
+  padding: 50px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
